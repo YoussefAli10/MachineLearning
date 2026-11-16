@@ -1,0 +1,22 @@
+{
+  "status": "exploratory model expansion after prior results were inspected",
+  "outcome": "iron_deficient (ferritin <15 ug/L; no anemia)",
+  "models": [
+    "Nonlab_DecisionTree",
+    "Nonlab_KNN",
+    "Nonlab_SVM_RBF"
+  ],
+  "development_cycles": [
+    "2009-2010",
+    "2015-2016"
+  ],
+  "evaluation_cycle": "2017-2020",
+  "predictors": 27,
+  "outer_cv_folds": 5,
+  "outer_cv_repeats": 1,
+  "inner_tuning_folds": 3,
+  "optimization_metric": "average_precision",
+  "classification_threshold": "selected on development out-of-fold scores to target 80% recall",
+  "original_winner_unchanged": "Nonlab_LR",
+  "note": "Added after earlier later-cycle results were already inspected; this is not independent external validation."
+}

@@ -1,0 +1,2819 @@
+{
+  "winner": "Nonlab_LR",
+  "outcome": "iron_deficient",
+  "models": {
+    "Majority_dummy": {
+      "columns": [
+        "RIDAGEYR"
+      ],
+      "threshold": 0.5,
+      "params": {},
+      "outer_parameters": [
+        {
+          "fold": 0,
+          "params": {}
+        },
+        {
+          "fold": 1,
+          "params": {}
+        },
+        {
+          "fold": 2,
+          "params": {}
+        },
+        {
+          "fold": 3,
+          "params": {}
+        },
+        {
+          "fold": 4,
+          "params": {}
+        },
+        {
+          "fold": 5,
+          "params": {}
+        },
+        {
+          "fold": 6,
+          "params": {}
+        },
+        {
+          "fold": 7,
+          "params": {}
+        },
+        {
+          "fold": 8,
+          "params": {}
+        },
+        {
+          "fold": 9,
+          "params": {}
+        },
+        {
+          "fold": 10,
+          "params": {}
+        },
+        {
+          "fold": 11,
+          "params": {}
+        },
+        {
+          "fold": 12,
+          "params": {}
+        },
+        {
+          "fold": 13,
+          "params": {}
+        },
+        {
+          "fold": 14,
+          "params": {}
+        },
+        {
+          "fold": 15,
+          "params": {}
+        },
+        {
+          "fold": 16,
+          "params": {}
+        },
+        {
+          "fold": 17,
+          "params": {}
+        },
+        {
+          "fold": 18,
+          "params": {}
+        },
+        {
+          "fold": 19,
+          "params": {}
+        },
+        {
+          "fold": 20,
+          "params": {}
+        },
+        {
+          "fold": 21,
+          "params": {}
+        },
+        {
+          "fold": 22,
+          "params": {}
+        },
+        {
+          "fold": 23,
+          "params": {}
+        },
+        {
+          "fold": 24,
+          "params": {}
+        },
+        {
+          "fold": 25,
+          "params": {}
+        },
+        {
+          "fold": 26,
+          "params": {}
+        },
+        {
+          "fold": 27,
+          "params": {}
+        },
+        {
+          "fold": 28,
+          "params": {}
+        },
+        {
+          "fold": 29,
+          "params": {}
+        },
+        {
+          "fold": 30,
+          "params": {}
+        },
+        {
+          "fold": 31,
+          "params": {}
+        },
+        {
+          "fold": 32,
+          "params": {}
+        },
+        {
+          "fold": 33,
+          "params": {}
+        },
+        {
+          "fold": 34,
+          "params": {}
+        },
+        {
+          "fold": 35,
+          "params": {}
+        },
+        {
+          "fold": 36,
+          "params": {}
+        },
+        {
+          "fold": 37,
+          "params": {}
+        },
+        {
+          "fold": 38,
+          "params": {}
+        },
+        {
+          "fold": 39,
+          "params": {}
+        },
+        {
+          "fold": 40,
+          "params": {}
+        },
+        {
+          "fold": 41,
+          "params": {}
+        },
+        {
+          "fold": 42,
+          "params": {}
+        },
+        {
+          "fold": 43,
+          "params": {}
+        },
+        {
+          "fold": 44,
+          "params": {}
+        },
+        {
+          "fold": 45,
+          "params": {}
+        },
+        {
+          "fold": 46,
+          "params": {}
+        },
+        {
+          "fold": 47,
+          "params": {}
+        },
+        {
+          "fold": 48,
+          "params": {}
+        },
+        {
+          "fold": 49,
+          "params": {}
+        }
+      ]
+    },
+    "Age_only_LR": {
+      "columns": [
+        "RIDAGEYR"
+      ],
+      "threshold": 0.11563077330810242,
+      "params": {
+        "clf__C": 0.1,
+        "clf__class_weight": null
+      },
+      "outer_parameters": [
+        {
+          "fold": 0,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 1,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 2,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 3,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 4,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 5,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 6,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 7,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 8,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 9,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 10,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 11,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 12,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 13,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 14,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 15,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 16,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 17,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 18,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 19,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 20,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 21,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 22,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 23,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 24,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 25,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 26,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 27,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 28,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 29,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 30,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 31,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 32,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 33,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 34,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 35,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 36,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 37,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 38,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 39,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 40,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 41,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 42,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 43,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 44,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 45,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 46,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 47,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 48,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 49,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        }
+      ]
+    },
+    "Risk_factor_rule": {
+      "columns": [
+        "RHQ031",
+        "avg_iron",
+        "num_live_birth_deliveries",
+        "INDFMPIR"
+      ],
+      "threshold": 0.10880344290256413,
+      "params": {},
+      "outer_parameters": [
+        {
+          "fold": 0,
+          "params": {}
+        },
+        {
+          "fold": 1,
+          "params": {}
+        },
+        {
+          "fold": 2,
+          "params": {}
+        },
+        {
+          "fold": 3,
+          "params": {}
+        },
+        {
+          "fold": 4,
+          "params": {}
+        },
+        {
+          "fold": 5,
+          "params": {}
+        },
+        {
+          "fold": 6,
+          "params": {}
+        },
+        {
+          "fold": 7,
+          "params": {}
+        },
+        {
+          "fold": 8,
+          "params": {}
+        },
+        {
+          "fold": 9,
+          "params": {}
+        },
+        {
+          "fold": 10,
+          "params": {}
+        },
+        {
+          "fold": 11,
+          "params": {}
+        },
+        {
+          "fold": 12,
+          "params": {}
+        },
+        {
+          "fold": 13,
+          "params": {}
+        },
+        {
+          "fold": 14,
+          "params": {}
+        },
+        {
+          "fold": 15,
+          "params": {}
+        },
+        {
+          "fold": 16,
+          "params": {}
+        },
+        {
+          "fold": 17,
+          "params": {}
+        },
+        {
+          "fold": 18,
+          "params": {}
+        },
+        {
+          "fold": 19,
+          "params": {}
+        },
+        {
+          "fold": 20,
+          "params": {}
+        },
+        {
+          "fold": 21,
+          "params": {}
+        },
+        {
+          "fold": 22,
+          "params": {}
+        },
+        {
+          "fold": 23,
+          "params": {}
+        },
+        {
+          "fold": 24,
+          "params": {}
+        },
+        {
+          "fold": 25,
+          "params": {}
+        },
+        {
+          "fold": 26,
+          "params": {}
+        },
+        {
+          "fold": 27,
+          "params": {}
+        },
+        {
+          "fold": 28,
+          "params": {}
+        },
+        {
+          "fold": 29,
+          "params": {}
+        },
+        {
+          "fold": 30,
+          "params": {}
+        },
+        {
+          "fold": 31,
+          "params": {}
+        },
+        {
+          "fold": 32,
+          "params": {}
+        },
+        {
+          "fold": 33,
+          "params": {}
+        },
+        {
+          "fold": 34,
+          "params": {}
+        },
+        {
+          "fold": 35,
+          "params": {}
+        },
+        {
+          "fold": 36,
+          "params": {}
+        },
+        {
+          "fold": 37,
+          "params": {}
+        },
+        {
+          "fold": 38,
+          "params": {}
+        },
+        {
+          "fold": 39,
+          "params": {}
+        },
+        {
+          "fold": 40,
+          "params": {}
+        },
+        {
+          "fold": 41,
+          "params": {}
+        },
+        {
+          "fold": 42,
+          "params": {}
+        },
+        {
+          "fold": 43,
+          "params": {}
+        },
+        {
+          "fold": 44,
+          "params": {}
+        },
+        {
+          "fold": 45,
+          "params": {}
+        },
+        {
+          "fold": 46,
+          "params": {}
+        },
+        {
+          "fold": 47,
+          "params": {}
+        },
+        {
+          "fold": 48,
+          "params": {}
+        },
+        {
+          "fold": 49,
+          "params": {}
+        }
+      ]
+    },
+    "Nonlab_LR": {
+      "columns": [
+        "RIDAGEYR",
+        "INDFMPIR",
+        "BMXBMI",
+        "avg_iron",
+        "avg_vitamin_c",
+        "avg_calories",
+        "avg_protein",
+        "avg_fiber",
+        "avg_calcium",
+        "avg_caffeine",
+        "avg_alcohol",
+        "avg_heme_food",
+        "avg_plant_protein_food",
+        "PAD680",
+        "num_pregnancies",
+        "num_live_birth_deliveries",
+        "years_since_last_birth",
+        "DSDCOUNT",
+        "RIDRETH1",
+        "DMDEDUC2",
+        "PAQ650",
+        "PAQ665",
+        "smoking_status",
+        "RHD280",
+        "RHQ031",
+        "breastfeeding_status",
+        "DSD010"
+      ],
+      "threshold": 0.10805731683500305,
+      "params": {
+        "clf__C": 1.0,
+        "clf__class_weight": "balanced"
+      },
+      "outer_parameters": [
+        {
+          "fold": 0,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 1,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 2,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 3,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": "balanced"
+          }
+        },
+        {
+          "fold": 4,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 5,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 6,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 7,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 8,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 9,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 10,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 11,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 12,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": "balanced"
+          }
+        },
+        {
+          "fold": 13,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 14,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": "balanced"
+          }
+        },
+        {
+          "fold": 15,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 16,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 17,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 18,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 19,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": "balanced"
+          }
+        },
+        {
+          "fold": 20,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": "balanced"
+          }
+        },
+        {
+          "fold": 21,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 22,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": "balanced"
+          }
+        },
+        {
+          "fold": 23,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": "balanced"
+          }
+        },
+        {
+          "fold": 24,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 25,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 26,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 27,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 28,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": "balanced"
+          }
+        },
+        {
+          "fold": 29,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 30,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 31,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 32,
+          "params": {
+            "clf__C": 0.1,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 33,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 34,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 35,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 36,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 37,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 38,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 39,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 40,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 41,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 42,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 43,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 44,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 45,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 46,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 47,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        },
+        {
+          "fold": 48,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": "balanced"
+          }
+        },
+        {
+          "fold": 49,
+          "params": {
+            "clf__C": 1.0,
+            "clf__class_weight": null
+          }
+        }
+      ]
+    },
+    "Nonlab_RF": {
+      "columns": [
+        "RIDAGEYR",
+        "INDFMPIR",
+        "BMXBMI",
+        "avg_iron",
+        "avg_vitamin_c",
+        "avg_calories",
+        "avg_protein",
+        "avg_fiber",
+        "avg_calcium",
+        "avg_caffeine",
+        "avg_alcohol",
+        "avg_heme_food",
+        "avg_plant_protein_food",
+        "PAD680",
+        "num_pregnancies",
+        "num_live_birth_deliveries",
+        "years_since_last_birth",
+        "DSDCOUNT",
+        "RIDRETH1",
+        "DMDEDUC2",
+        "PAQ650",
+        "PAQ665",
+        "smoking_status",
+        "RHD280",
+        "RHQ031",
+        "breastfeeding_status",
+        "DSD010"
+      ],
+      "threshold": 0.10955069872926751,
+      "params": {
+        "clf__class_weight": null,
+        "clf__max_depth": 8,
+        "clf__min_samples_leaf": 5
+      },
+      "outer_parameters": [
+        {
+          "fold": 0,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 1,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 2,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 3,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 4,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 5,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 6,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 7,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 8,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 9,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 10,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 11,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 12,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 13,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 14,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 15,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 16,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 17,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 18,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 19,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 20,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 21,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 22,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 23,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 24,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 25,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 26,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 27,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 28,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 29,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 30,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 31,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 32,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 33,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 34,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 35,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 36,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 37,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 38,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 39,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 40,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 41,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 42,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 43,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 44,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 45,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 46,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 47,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 15
+          }
+        },
+        {
+          "fold": 48,
+          "params": {
+            "clf__class_weight": null,
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        },
+        {
+          "fold": 49,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__max_depth": 8,
+            "clf__min_samples_leaf": 5
+          }
+        }
+      ]
+    },
+    "Nonlab_HGB": {
+      "columns": [
+        "RIDAGEYR",
+        "INDFMPIR",
+        "BMXBMI",
+        "avg_iron",
+        "avg_vitamin_c",
+        "avg_calories",
+        "avg_protein",
+        "avg_fiber",
+        "avg_calcium",
+        "avg_caffeine",
+        "avg_alcohol",
+        "avg_heme_food",
+        "avg_plant_protein_food",
+        "PAD680",
+        "num_pregnancies",
+        "num_live_birth_deliveries",
+        "years_since_last_birth",
+        "DSDCOUNT",
+        "RIDRETH1",
+        "DMDEDUC2",
+        "PAQ650",
+        "PAQ665",
+        "smoking_status",
+        "RHD280",
+        "RHQ031",
+        "breastfeeding_status",
+        "DSD010"
+      ],
+      "threshold": 0.1114638325029802,
+      "params": {
+        "clf__class_weight": "balanced",
+        "clf__l2_regularization": 1.0,
+        "clf__max_leaf_nodes": 7
+      },
+      "outer_parameters": [
+        {
+          "fold": 0,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 1,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 2,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 3,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 4,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 5,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 6,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 7,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 8,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 9,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 10,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 11,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 12,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 13,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 14,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 15,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 16,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 17,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 18,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 19,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 20,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 21,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 22,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 23,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 24,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 25,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 26,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 27,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 28,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 29,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 30,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 31,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 32,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 33,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 34,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 35,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 36,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 37,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 38,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 39,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 40,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 41,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 42,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 43,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 44,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 45,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 46,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 47,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 48,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 49,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        }
+      ]
+    },
+    "CBC_only_HGB": {
+      "columns": [
+        "LBXWBCSI",
+        "LBXLYPCT",
+        "LBXMOPCT",
+        "LBXNEPCT",
+        "LBXEOPCT",
+        "LBXBAPCT",
+        "LBXRBCSI",
+        "LBXHGB",
+        "LBXHCT",
+        "LBXMCVSI",
+        "LBXMCHSI",
+        "LBXMC",
+        "LBXRDW",
+        "LBXPLTSI",
+        "LBXMPSI"
+      ],
+      "threshold": 0.09082514006800887,
+      "params": {
+        "clf__class_weight": "balanced",
+        "clf__l2_regularization": 10.0,
+        "clf__max_leaf_nodes": 7
+      },
+      "outer_parameters": [
+        {
+          "fold": 0,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 1,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 2,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 3,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 4,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 5,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 6,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 7,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 8,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 9,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 10,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 11,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 12,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 13,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 14,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 15,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 16,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 17,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 18,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 19,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 20,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 21,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 22,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 23,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 24,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 25,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 26,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 27,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 28,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 29,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 30,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 31,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 32,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 33,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 34,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 35,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 36,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 37,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 38,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 1.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 39,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 40,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 41,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 42,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 43,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 44,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 45,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 46,
+          "params": {
+            "clf__class_weight": null,
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 47,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 48,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        },
+        {
+          "fold": 49,
+          "params": {
+            "clf__class_weight": "balanced",
+            "clf__l2_regularization": 10.0,
+            "clf__max_leaf_nodes": 7
+          }
+        }
+      ]
+    },
+    "Nonlab_LR_ROS": {
+      "columns": [
+        "RIDAGEYR",
+        "INDFMPIR",
+        "BMXBMI",
+        "avg_iron",
+        "avg_vitamin_c",
+        "avg_calories",
+        "avg_protein",
+        "avg_fiber",
+        "avg_calcium",
+        "avg_caffeine",
+        "avg_alcohol",
+        "avg_heme_food",
+        "avg_plant_protein_food",
+        "PAD680",
+        "num_pregnancies",
+        "num_live_birth_deliveries",
+        "years_since_last_birth",
+        "DSDCOUNT",
+        "RIDRETH1",
+        "DMDEDUC2",
+        "PAQ650",
+        "PAQ665",
+        "smoking_status",
+        "RHD280",
+        "RHQ031",
+        "breastfeeding_status",
+        "DSD010"
+      ],
+      "threshold": 0.10517537722187095,
+      "params": {
+        "clf__C": 1.0
+      },
+      "outer_parameters": [
+        {
+          "fold": 0,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 1,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 2,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 3,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 4,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 5,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 6,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 7,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 8,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 9,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 10,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 11,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 12,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 13,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 14,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 15,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 16,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 17,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 18,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 19,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 20,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 21,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 22,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 23,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 24,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 25,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 26,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 27,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 28,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 29,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 30,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 31,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 32,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 33,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 34,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 35,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 36,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 37,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 38,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 39,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 40,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 41,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 42,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 43,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 44,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 45,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 46,
+          "params": {
+            "clf__C": 0.1
+          }
+        },
+        {
+          "fold": 47,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 48,
+          "params": {
+            "clf__C": 1.0
+          }
+        },
+        {
+          "fold": 49,
+          "params": {
+            "clf__C": 0.1
+          }
+        }
+      ]
+    }
+  }
+}
