@@ -1,28 +1,26 @@
-feature,type
-RIDAGEYR,numeric
-INDFMPIR,numeric
-BMXBMI,numeric
-avg_iron,numeric
-avg_vitamin_c,numeric
-avg_calories,numeric
-avg_protein,numeric
-avg_fiber,numeric
-avg_calcium,numeric
-avg_caffeine,numeric
-avg_alcohol,numeric
-avg_heme_food,numeric
-avg_plant_protein_food,numeric
-PAD680,numeric
-num_pregnancies,numeric
-num_live_birth_deliveries,numeric
-years_since_last_birth,numeric
-DSDCOUNT,numeric
-RIDRETH1,categorical
-DMDEDUC2,categorical
-PAQ650,categorical
-PAQ665,categorical
-smoking_status,categorical
-RHD280,categorical
-RHQ031,categorical
-breastfeeding_status,categorical
-DSD010,categorical
+predictor,type,source_and_derivation
+RIDAGEYR,numeric,DEMO: RIDAGEYR (age)
+INDFMPIR,numeric,DEMO: INDFMPIR (family income / poverty ratio)
+BMXBMI,numeric,BMX: BMXBMI (BMI)
+avg_iron,numeric,DR1TOT DR1TIRON and DR2TOT DR2TIRON; available-day mean
+avg_vitamin_c,numeric,DR1TOT DR1TVC and DR2TOT DR2TVC; available-day mean
+avg_calories,numeric,DR1TOT DR1TKCAL and DR2TOT DR2TKCAL; available-day mean
+avg_protein,numeric,DR1TOT DR1TPROT and DR2TOT DR2TPROT; available-day mean
+avg_fiber,numeric,DR1TOT DR1TFIBE and DR2TOT DR2TFIBE; available-day mean
+avg_calcium,numeric,DR1TOT DR1TCALC and DR2TOT DR2TCALC; available-day mean
+avg_caffeine,numeric,DR1TOT DR1TCAFF and DR2TOT DR2TCAFF; available-day mean
+avg_alcohol,numeric,DR1TOT DR1TALCO and DR2TOT DR2TALCO; available-day mean
+PAD680,numeric,PAQ: PAD680 (sedentary minutes)
+DSDCOUNT,numeric,DSQTOT: DSDCOUNT (number of dietary supplements)
+num_pregnancies,numeric,RHQ: RHQ160 + RHQ131 (never-pregnant code)
+num_live_birth_deliveries,numeric,RHQ: RHQ171 + RHQ131 (never-pregnant code)
+years_since_last_birth,numeric,"DEMO RIDAGEYR minus RHQ RHD190, only where live-birth deliveries >0"
+RIDRETH1,categorical,DEMO: RIDRETH1 (race/ethnicity)
+DMDEDUC2,categorical,DEMO: DMDEDUC2 (education)
+PAQ650,categorical,PAQ: PAQ650 (vigorous leisure activity)
+PAQ665,categorical,PAQ: PAQ665 (moderate leisure activity)
+smoking_status,categorical,SMQ: SMQ020 + SMQ040
+DSD010,categorical,DSQTOT: DSD010 (supplement use)
+RHQ031,categorical,RHQ: RHQ031 (regular periods past 12 months)
+RHD280,categorical,RHQ: RHD280 (hysterectomy)
+breastfeeding_status,categorical,RHQ: RHQ200 (breastfeeding yes/no/skip)

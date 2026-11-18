@@ -1,0 +1,68 @@
+{
+  "seed": 42,
+  "development_cycles": [
+    "2009-2010",
+    "2015-2016",
+    "2017-2020"
+  ],
+  "test_cycle": "2007-2008",
+  "nonlab_predictors": [
+    "RIDAGEYR",
+    "INDFMPIR",
+    "BMXBMI",
+    "avg_iron",
+    "avg_vitamin_c",
+    "avg_calories",
+    "avg_protein",
+    "avg_fiber",
+    "avg_calcium",
+    "avg_caffeine",
+    "avg_alcohol",
+    "PAD680",
+    "DSDCOUNT",
+    "num_pregnancies",
+    "num_live_birth_deliveries",
+    "years_since_last_birth",
+    "RIDRETH1",
+    "DMDEDUC2",
+    "PAQ650",
+    "PAQ665",
+    "smoking_status",
+    "DSD010",
+    "RHQ031",
+    "RHD280",
+    "breastfeeding_status"
+  ],
+  "cbc_predictors": [
+    "LBXWBCSI",
+    "LBXRBCSI",
+    "LBXHGB",
+    "LBXHCT",
+    "LBXMCVSI",
+    "LBXMCHSI",
+    "LBXMC",
+    "LBXRDW",
+    "LBXPLTSI"
+  ],
+  "selected_nonlab_model": "LogisticRegression",
+  "thresholds": {
+    "LogisticRegression": 0.38036339349090126,
+    "RandomForest": 0.2732698754930935,
+    "HistogramGradientBoosting": 0.029772727588711304,
+    "DecisionTree": 0.41806388446946285,
+    "KNN": 0.07345549079106034,
+    "SVM_RBF": 0.0928887107592744,
+    "CBC_HistogramBoosting": 0.030166855408315034
+  },
+  "selection_metric": "5-fold development out-of-fold average precision",
+  "ferritin_2007_bridge": "10**(0.989*log10(2007_ferritin)+0.049)",
+  "target_recall_development": 0.8,
+  "models": [
+    "LogisticRegression",
+    "RandomForest",
+    "HistogramGradientBoosting",
+    "DecisionTree",
+    "KNN",
+    "SVM_RBF"
+  ]
+}

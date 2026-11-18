@@ -1,0 +1,6 @@
+This is a new backward-in-time, out-of-cycle evaluation on previously unused NHANES 2007–2008.
+Older 2017–2020 evaluation was exploratory and not a fully independent test.
+Two original FPED-derived proxy features were removed to retain compatible predictors (25 total).
+Ferritin 2007–2008 was bridged using the CDC 2009–2010 analytic note.
+CV performance is OOF within development; 2007–2008 performance is independent of model selection.
+No NHANES sampling-weighted ML metrics or deployment claims are made.

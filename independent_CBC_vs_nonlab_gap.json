@@ -1,0 +1,6 @@
+{
+  "CBC_minus_development_selected_nonlab_AUROC": 0.20877665544332213,
+  "CI95_low": 0.09456891659121025,
+  "CI95_high": 0.30953113925742026,
+  "bootstrap_valid_samples": 1000
+}
