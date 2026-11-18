@@ -4,29 +4,35 @@ CIS 631 — Machine Learning
 
 ## Project Description
 
-This project explores whether iron deficiency without anemia can be predicted using non-laboratory information, including dietary habits, demographic characteristics, lifestyle factors, and reproductive history.
+This project investigates whether iron deficiency without anemia can be predicted using non-laboratory information, including dietary intake, demographic characteristics, lifestyle factors, and reproductive history.
 
-Our goal was to investigate whether these variables could help identify individuals who may be iron deficient without requiring blood measurements as model inputs.
+The goal was to evaluate whether these variables could help identify individuals who may be iron deficient without using blood measurements as model predictors.
 
 ## Dataset
 
 We used publicly available data from the National Health and Nutrition Examination Survey (NHANES), conducted by the Centers for Disease Control and Prevention (CDC).
 
-Our final dataset included 2,397 nonpregnant women between the ages of 20 and 44 across three NHANES periods:
+Our final analytic dataset contained **3,066 nonpregnant women ages 20–44** across four NHANES periods:
 
-- 2009–2010: 793 participants
-- 2015–2016: 662 participants
-- 2017–March 2020: 942 participants
+| NHANES Period | Participants | Purpose |
+|---|---:|---|
+| 2007–2008 | 669 | Independent evaluation |
+| 2009–2010 | 793 | Model development |
+| 2015–2016 | 662 | Model development |
+| 2017–March 2020 | 942 | Model development |
+| **Total** | **3,066** | |
 
-Of these participants, 262 met our primary definition of iron deficiency without anemia.
+Of these participants, 337 met our primary definition of iron deficiency without anemia.
 
-We used 27 non-laboratory predictors covering demographics, nutrition, physical activity, smoking, supplement use, and reproductive history.
+The final models used 25 non-laboratory predictors covering dietary intake, demographics, lifestyle, and reproductive history.
 
-Ferritin measurements were used to determine iron-deficiency status, while hemoglobin and other laboratory information were used to define the study population. These laboratory measurements were excluded from the main prediction models.
+Iron deficiency was defined using serum ferritin below 15 µg/L. Hemoglobin was used to exclude anemia, and C-reactive protein (CRP) was used to account for inflammation. Laboratory measurements were excluded from the main non-laboratory prediction models.
 
-## Methods
+## Methodology
 
-We developed our models using 1,455 participants from the 2009–2010 and 2015–2016 NHANES cycles. We then evaluated their performance on 942 participants from the 2017–March 2020 cycle.
+We used 2,397 participants from the 2009–2010, 2015–2016, and 2017–March 2020 cycles for model development.
+
+The 2007–2008 cycle, containing 669 participants, was reserved for independent evaluation. Model selection and preprocessing decisions were made without using this cycle's outcomes.
 
 Six machine learning models were evaluated:
 
@@ -37,39 +43,52 @@ Six machine learning models were evaluated:
 5. K-Nearest Neighbors (KNN)
 6. Support Vector Machine (SVM)
 
-Model performance was assessed using metrics including AUROC, average precision, recall, and precision. Cross-validation was used during model development.
+Five-fold stratified cross-validation was used during development. Model performance was evaluated using AUROC, average precision, recall, and precision.
 
-We also evaluated a separate model using complete blood count (CBC) measurements to compare the predictive value of laboratory and non-laboratory information.
+We also developed a separate complete blood count (CBC) benchmark to compare the predictive value of blood-based and non-laboratory information.
+
+Because laboratory methods differed across certain NHANES periods, the analysis incorporated the CDC's published ferritin harmonization equation for the 2007–2008 cycle.
 
 ## Results
 
-Logistic regression performed best among the six non-laboratory models, achieving an AUROC of 0.593 and an average precision of 0.138 on the later-cycle evaluation dataset.
+The six non-laboratory models demonstrated limited predictive performance on the independent 2007–2008 evaluation dataset.
 
-The CBC-based comparison model performed considerably better, achieving an AUROC of 0.816.
+| Model | AUROC | Average Precision |
+|---|---:|---:|
+| Logistic Regression | 0.540 | 0.138 |
+| Random Forest | 0.576 | 0.141 |
+| Histogram Gradient Boosting | 0.547 | 0.135 |
+| Decision Tree | 0.556 | 0.127 |
+| KNN | 0.513 | 0.121 |
+| SVM | 0.565 | 0.162 |
+| CBC Benchmark | 0.749 | 0.348 |
 
-Overall, the non-laboratory models demonstrated limited ability to distinguish participants with iron deficiency from those without it.
+Logistic regression was selected as the primary non-laboratory model based on development-set performance. Random forest achieved the highest AUROC among the non-laboratory models on the independent test set, while SVM achieved the highest average precision.
 
-These findings suggest that predicting iron deficiency without anemia using the available dietary, lifestyle, demographic, and reproductive information is challenging.
+The CBC benchmark substantially outperformed the primary non-laboratory model, with an AUROC difference of 0.209 (95% bootstrap confidence interval: 0.095–0.310).
 
-## Limitations
+## Additional Analyses
 
-Our study was limited by the size of the eligible population, the availability of certain predictors, and the accuracy of self-reported dietary and lifestyle information.
+We compared progressively larger groups of non-laboratory predictors to investigate which categories contributed useful information.
 
-Additionally, because the later NHANES cycle was included in earlier exploratory analyses, our final evaluation represents retrospective cycle-based testing rather than fully independent external validation.
+| Predictor Group | Independent-Test AUROC |
+|---|---:|
+| Dietary factors only | 0.535 |
+| Dietary + lifestyle factors | 0.525 |
+| Dietary + lifestyle + reproductive factors | 0.573 |
 
-Future research could examine additional predictors, more detailed information about menstrual blood loss and dietary intake, or alternative datasets.
+Adding reproductive-history variables improved discrimination relative to the smaller feature groups, although overall performance remained limited.
 
-## Notebook
+Additional analyses included permutation importance, coefficient interpretation, predictor-importance stability, sensitivity analysis using a ferritin threshold of 30 µg/L, and performance comparisons across individual NHANES cycles.
 
-The primary notebook for this project is:
+## Discussion and Limitations
 
-`CIS631_Iron_Deficiency_6_Models_Final.ipynb`
+Our findings suggest that iron deficiency without anemia is difficult to predict reliably using the non-laboratory information available in these NHANES datasets.
 
-The notebook contains the data preparation, preprocessing, model development, evaluation, and additional analyses completed throughout the project.
+Several limitations should be considered:
 
-It was developed using Python and Google Colab. To run the notebook, open it in Colab and execute the cells sequentially. An internet connection is required to retrieve the public data sources.
-
-## Data Sources
-
-- [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/)
-- [USDA Agricultural Research Service — Food Patterns Equivalents Database](https://www.ars.usda.gov/)
+- Self-reported dietary information may not accurately represent long-term eating habits.
+- The available variables may not fully capture important factors such as menstrual blood loss or individual differences in iron absorption.
+- The eligible population was restricted to nonpregnant women ages 20–44.
+- The independent evaluation used an earlier NHANES cycle rather than a prospective sample.
+- The machine learning performance estimates
